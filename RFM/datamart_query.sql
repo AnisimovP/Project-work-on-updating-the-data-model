@@ -1,4 +1,4 @@
-insert into analysis.dm_rfm_segments (
+insert into analysis.dm_rfm_segments (user_id, recency, frequency, monetary_value) (
 select 
 		f.user_id ,
 		r.recency,
