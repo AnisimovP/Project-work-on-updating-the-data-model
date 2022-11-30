@@ -1,3 +1,4 @@
+drop table if exists analysis.dm_rfm_segments;
 create table analysis.dm_rfm_segments(
 	user_id int4 not null,
 	recency int4 not null,
